@@ -1,0 +1,19 @@
+package com.techpro.webstat;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+
+public class WebstatApplication {
+
+	public static void main(String[] args) {
+
+		SpringApplication.run(WebstatApplication.class, args);
+		
+	}
+	
+	
+}
